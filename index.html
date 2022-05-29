@@ -68,13 +68,15 @@
             </li>
           </ul>
 
-          <form class="card p-2">
-            <div class="input-group">
-              <label for="promo" class="form-label">Promo <br> Code</label>
-              <input type="text" class="form-control" id="promo" placeholder="Promo code">
-              <button type="submit" class="btn btn-secondary">Redeem</button>
-            </div>
-          </form>
+          <fieldset>
+            <legend>Promo code</legend>
+            <form class="card p-2">
+              <div class="input-group">
+                <input type="text" class="form-control" id="promo" placeholder="Promo Code">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
+              </div>
+            </form>
+          </fieldset>
         </div>
         <div class="col-md-7 col-lg-8">
           <h4 class="mb-3">Billing address</h4>
@@ -162,16 +164,13 @@
             <hr class="my-4">
 
             <fieldset>
-              <legend>Save address</legend>
+              <legend>Save for next time</legend>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="same-address">
                 <label class="form-check-label" for="same-address">Shipping address is the same as my billing
                   address</label>
               </div>
-            </fieldset>
-
-            <fieldset>
-              <legend>Save info</legend>
+ 
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="save-info">
                 <label class="form-check-label" for="save-info">Save this information for next time</label>
